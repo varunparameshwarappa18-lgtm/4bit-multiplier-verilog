@@ -19,7 +19,7 @@ The first case (15 x 15) is the maximum-value case for 4-bit operands.
 ## Result
 The SimVision waveform shows `P` taking the expected value after the next rising clock edge for all three cases, and returning to 00 when reset is asserted.
 
-(4bit_multiplier.png)
+![Waveform](4bit_multiplier.png)
 
 ## Files
 - `rtl/multiplier.v`: design (`multiplier`)
