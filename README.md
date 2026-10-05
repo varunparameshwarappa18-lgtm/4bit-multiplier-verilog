@@ -19,12 +19,12 @@ The first case (15 x 15) is the maximum-value case for 4-bit operands.
 ## Result
 The SimVision waveform shows `P` taking the expected value after the next rising clock edge for all three cases, and returning to 00 when reset is asserted.
 
-![Waveform](waveform_simvision.png)
+(4bit_multiplier.png)
 
 ## Files
 - `rtl/multiplier.v`: design (`multiplier`)
 - `tb/multiplier_tb.v`: testbench (`multiplier_tb`)
-- `waveform_simvision.png`: SimVision waveform
+- `4bit_multiplier.png`: SimVision waveform
 
 ## Tools
 Verilog, Cadence NC-Verilog, Cadence SimVision
